@@ -325,10 +325,10 @@
       display: block;
     }
      #about .about_text {
-       display: none;
+     display: none;
       }
-     .about_text1 {
-      display: block;
+    .about_text1 {
+    display: block;
     width: 100%;
     height: inherit;
     font-size: 18px;
