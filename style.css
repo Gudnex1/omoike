@@ -154,7 +154,7 @@
   #expirence {
     margin-top: 40px;
     width: inherit;
-    height: 335px;
+    height: fit-content;
     font-size: 18px;
     border: 1px solid var(--border_clr);
     background-color: white;
