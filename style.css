@@ -154,7 +154,7 @@
   #expirence {
     margin-top: 40px;
     width: inherit;
-    height: fit-content;
+    height: 335px;
     font-size: 18px;
     border: 1px solid var(--border_clr);
     background-color: white;
@@ -312,7 +312,7 @@
   }
 }
 @media (max-width: 500px) {
-    .wrapper {
+  .wrapper {
     margin: 0 auto;
     max-width: 100%;
   }
