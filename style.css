@@ -55,10 +55,6 @@
   #focus:focus {
     text-decoration: underline;
   }
-  .text_wrap {
-    white-space: nowrap;
-    /* overflow: hidden; */
-  }
 }
 @layer nav_styles {
   .btn {
@@ -402,6 +398,7 @@
     gap: 7px;
     text-align: center;
     justify-content: center;
+    padding-bottom: 20px;
   }
   .collage-container {
     display: flex;
