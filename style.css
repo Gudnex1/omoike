@@ -35,7 +35,6 @@
     margin: 0 auto;
     background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 3px 3px 10px rgb(192, 190, 190);
     font-size: 18px;
     /* margin-top: 1rem; */
     position: fixed;
@@ -344,7 +343,6 @@
     height: inherit;
     font-size: 18px;
     /* line-height: 1.6; */
-    box-shadow: 5px 5px 5px rgb(192, 190, 190);
     padding: 20px 20px 20px 30px;
     background-color: #fff;
     border-radius: 20px;
@@ -368,9 +366,10 @@
   #expirence {
     height: 430px;
   }
-  #footer {
+  footer#footer {
     height: fit-content;
     flex-direction: column-reverse;
+    padding: 30px;
   }
   #education,
   .wrap {
@@ -394,11 +393,14 @@
     font-size: 16px;
   }
   .date {
+    padding-bottom: 30px;
     display: flex;
     gap: 7px;
     text-align: center;
     justify-content: center;
-    padding-bottom: 20px;
+    text-wrap: nowrap;
+    text-align: center;
+    padding-right: 30px;
   }
   .collage-container {
     display: flex;
